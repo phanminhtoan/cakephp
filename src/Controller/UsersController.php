@@ -54,12 +54,10 @@ class UsersController extends AppController
             //$data = $this->request->data;
             //$user = $this->register($data);
             $user = $this->Users->patchEntity($user, $this->request->data);
-            if($this->Users->save($user))
-            {
+            if($this->Users->save($user)){
                 $this->Flash->success(_('This user have been registered'));
             }
-            else
-            {
+            else {
                 $this->Flash->error(_('Cannot register, Please try again'));
             }
         }
