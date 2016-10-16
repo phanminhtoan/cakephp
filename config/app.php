@@ -231,7 +231,7 @@ return [
             //'port' => 'non_standard_port_number',
             'username' => 'myadmin',
             'password' => 'Toan123456',
-            'database' => 'cakephp',
+            'database' => 'cloudorder',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'flags' => [],
