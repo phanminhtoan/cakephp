@@ -220,17 +220,17 @@ return [
     'Datasources' => [
         'default' => [
             'className' => 'Cake\Database\Connection',
-            'driver' => 'Cake\Database\Driver\Mysql',
+            'driver' => 'Cake\Database\Driver\Sqlserver',
             'persistent' => false,
-            'host' => 'localhost',
+            'host' => 'cloudorder.database.windows.net',
             /**
              * CakePHP will use the default DB port based on the driver selected
              * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'root',
-            'password' => 'root',
+            'username' => 'myadmin',
+            'password' => 'Toan123456',
             'database' => 'cakephp',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
